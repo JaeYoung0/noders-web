@@ -1,4 +1,4 @@
-import '../styles/global.css'
+import '@/styles/global.css'
 import type { AppProps } from 'next/app'
 import { GlobalStyles } from 'twin.macro'
 import Head from 'next/head'
