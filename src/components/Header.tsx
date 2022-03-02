@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const HeaderWrapper = styled.header`
   display: flex;
-  background: #000000;
+  background: #121212;
   padding: 2rem 2.5rem;
 `
 
@@ -23,7 +23,13 @@ const NavWrapper = styled.nav`
 function Header() {
   return (
     <HeaderWrapper>
-      <Logo src="images/logo.png" />
+      <Logo
+        src="images/logo.png"
+        css={css`
+          width: 180px;
+          height: 22px;
+        `}
+      />
       <NavWrapper>
         <Link href="/">
           <a>ABOUT</a>
