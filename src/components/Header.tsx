@@ -1,22 +1,28 @@
 import React from 'react'
-import tw, { styled, css, theme } from 'twin.macro'
+import { styled } from 'twin.macro'
 import Link from 'next/link'
-import { keyframes } from '@emotion/react'
-import { bottomUp } from '@/styles/utils'
+import { useRouter } from 'next/router'
 
 const HeaderWrapper = styled.header`
+  position: fixed;
+  top: 0;
+  left: 0;
+
   display: flex;
   align-items: center;
+  width: 100%;
   background: #121212;
-  padding: 1rem;
+  padding: 2rem 1.5rem;
+
+  z-index: 10;
+
+  border-bottom: 1px solid #fff;
 `
 
 const Logo = styled.img`
   margin-right: auto;
   width: 9rem;
   object-fit: contain;
-
-  animation: ${bottomUp} 1.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 `
 
 const NavWrapper = styled.nav`
@@ -26,18 +32,20 @@ const NavWrapper = styled.nav`
     font-size: 1.2rem;
     color: #fff;
     margin-left: 1.6rem;
+    font-weight: bold;
   }
 `
 
 function Header() {
+  const router = useRouter()
   return (
     <HeaderWrapper>
-      <Logo src="images/logo.png" />
+      <Logo src="images/logo.png" onClick={() => router.push('/')} />
       <NavWrapper>
         <Link href="/">
           <a>ABOUT</a>
         </Link>
-        <Link href="/">
+        <Link href="/works">
           <a>WORKS</a>
         </Link>
         <Link href="/">

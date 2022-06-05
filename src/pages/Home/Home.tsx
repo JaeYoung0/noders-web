@@ -9,11 +9,11 @@ function HomePage() {
         <br />
         <br />
         <S.AnimationBox>
-          <h1>Connect</h1>
+          <h1>CONNECT</h1>
         </S.AnimationBox>
         <br />
         <S.AnimationBox>
-          <h1>IDEAS To</h1>
+          <h1>IDEAS TO</h1>
         </S.AnimationBox>
         <S.AnimationBox>
           <h1>{` `}REALITY</h1>
@@ -29,7 +29,7 @@ function HomePage() {
         <br />
         <br />
         <br />
-        <svg width="241" height="228" viewBox="0 0 241 228" fill="none">
+        <svg width="241" height="230" viewBox="0 0 241 228" fill="none">
           <path
             className="path"
             stroke="#fff"

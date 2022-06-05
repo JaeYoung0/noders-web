@@ -8,9 +8,6 @@ const dash = keyframes`
   }
 `
 
-/* @keyframes duration | timing-function | delay |
-iteration-count | direction | fill-mode | play-state | name */
-
 export const Container = styled.div`
   padding: 0 1.5rem;
 
@@ -41,6 +38,7 @@ export const AnimationBox = styled.div`
 
   &:nth-of-type(1) {
     h1 {
+      /* @keyframes duration | timing-function | delay | iteration-count | direction | fill-mode | play-state | name */
       animation: ${bottomUp} 1.3s cubic-bezier(0.075, 0.82, 0.165, 1) 0s forwards;
     }
   }

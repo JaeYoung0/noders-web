@@ -4,11 +4,11 @@ import * as S from './BasicLayout.style'
 
 function BasicLayout({ children }) {
   return (
-    <>
+    <div style={{ position: 'relative' }}>
       <Header />
       <S.Main>{children}</S.Main>
       <Footer />
-    </>
+    </div>
   )
 }
 
