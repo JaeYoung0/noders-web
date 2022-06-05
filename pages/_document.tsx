@@ -27,7 +27,7 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="icon" href="favicon.ico" />
           <link
-            href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/variable/woff2/SUIT-Variable.css"
+            href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css"
             rel="stylesheet"
           />
         </Head>
