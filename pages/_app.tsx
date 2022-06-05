@@ -1,15 +1,15 @@
-import '@/styles/global.css'
 import type { AppProps } from 'next/app'
-import { GlobalStyles } from 'twin.macro'
 import Head from 'next/head'
+import '@/styles/reset.css'
+import GlobalFont from '@/styles/GlobalFont'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>noders</title>
+        <title>NODERS</title>
       </Head>
-      <GlobalStyles />
+      <GlobalFont />
       <Component {...pageProps} />
     </>
   )

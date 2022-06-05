@@ -1,5 +1,5 @@
 import React from 'react'
-import { BasicLayout } from '@/layouts'
+import BasicLayout from '@/layouts/BasicLayout'
 import Banner from '@/components/Banner'
 import Graph from '@/components/Graph'
 import CodingVideo from '@/components/CodingVideo'
@@ -7,9 +7,7 @@ import CodingVideo from '@/components/CodingVideo'
 function HomePage() {
   return (
     <BasicLayout>
-      <Banner />
-      <Graph />
-      <CodingVideo />
+      <span>wow</span>
     </BasicLayout>
   )
 }

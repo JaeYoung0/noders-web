@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 1209",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 1209",
     "type-check": "tsc"
   },
   "dependencies": {
