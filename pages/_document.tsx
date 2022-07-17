@@ -26,10 +26,9 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" href="favicon.ico" />
-          <link
-            href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css"
-            rel="stylesheet"
-          />
+          <link rel="preload" href="/fonts/SUIT-Bold.woff2" as="font" />
+          <link rel="preload" href="/fonts/SUIT-Regular.woff2" as="font" />
+          <link href="/fonts.css" rel="stylesheet" />
         </Head>
 
         <body>
