@@ -171,7 +171,7 @@ const WorksByCategory = {
     ],
   },
 }
-function Works() {
+function WorksPage() {
   const [category, setCategory] = useState<CategoryType>('ALL')
   const workslist = WorksByCategory[category].works
 
@@ -198,15 +198,16 @@ function Works() {
           </p>
         </S.CategoriesWrapper>
         <S.ImagesWrapper>
-          {workslist.map((item) => (
-            <li>
+          {workslist.map((item, idx) => (
+            <S.WorkItem key={idx}>
+              <S.Dim>{item.title}</S.Dim>
               <img
                 src={`${item.img}?w=248&fit=crop&auto=format`}
                 srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
                 alt={item.title}
                 loading="lazy"
               />
-            </li>
+            </S.WorkItem>
           ))}
         </S.ImagesWrapper>
       </S.FlexContainer>
@@ -214,4 +215,4 @@ function Works() {
   )
 }
 
-export default Works
+export default WorksPage

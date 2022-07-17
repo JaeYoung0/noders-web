@@ -28,8 +28,8 @@ function HomePage() {
         </S.AnimationBox>
         <br />
         <br />
-        <br />
-        <svg width="241" height="230" viewBox="0 0 241 228" fill="none">
+        <br /> */}
+        {/* <svg width="241" height="230" viewBox="0 0 241 228" fill="none">
           <path
             className="path"
             stroke="#fff"
