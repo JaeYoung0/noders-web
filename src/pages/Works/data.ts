@@ -45,12 +45,12 @@ export const WorksByCategory = {
       },
     ],
   },
-  PACKAGE: {
-    works: [],
-  },
-  WEB: {
-    works: [],
-  },
+  // PACKAGE: {
+  //   works: [],
+  // },
+  // WEB: {
+  //   works: [],
+  // },
 }
 
 export const WorksById = WorksByCategory.ALL.works.reduce(
