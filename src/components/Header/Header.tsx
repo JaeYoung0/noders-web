@@ -8,7 +8,7 @@ function Header() {
   const router = useRouter()
   return (
     <S.Container>
-      <S.Logo src="images/logo.png" onClick={() => router.push('/')} />
+      <S.Logo src="/images/logo.png" onClick={() => router.push('/')} />
       <S.Navigation>
         <Link href="/">
           <a>ABOUT</a>
