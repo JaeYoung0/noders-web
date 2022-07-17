@@ -1,6 +1,7 @@
 const CONSTANTS = {
   title: 'NODERS',
   description: '브랜딩 | 패키지 | 로고 | 웹디자인 | 웹앱개발',
+  siteName: '노더스 스튜디오',
   siteUrl: 'https://www.noders-studio.com/',
   imageUrl: 'https://www.noders-studio.com/images/meta-cover.png',
   keywords: '브랜딩, 패키지, 로고, 웹디자인, 웹앱개발',
@@ -22,7 +23,7 @@ function Meta() {
       <meta property="og:description" content={CONSTANTS.description} />
       <meta property="og:image" content={CONSTANTS.imageUrl} />
       <meta property="og:url" content={CONSTANTS.siteUrl} />
-      <meta property="og:site_name" content="스쿨라이브" />
+      <meta property="og:site_name" content={CONSTANTS.siteName} />
       <meta property="og:locale" content="ko-KR" />
       <meta property="og:image:width" content="980" />
       <meta property="og:image:height" content="565" />
