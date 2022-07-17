@@ -16,7 +16,7 @@ function Header() {
         <Link href="/works">
           <a>WORKS</a>
         </Link>
-        <Link href="/">
+        <Link href="/contact">
           <a>CONTACT</a>
         </Link>
       </S.Navigation>

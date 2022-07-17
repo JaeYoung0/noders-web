@@ -9,5 +9,5 @@ export const Main = styled.main`
   background: #121212;
   transform: translate3d(0, -1px, 0); // 흰 줄 제거
   overflow-x: hidden;
-  margin-top: 6rem;
+  padding-top: 8rem;
 `
