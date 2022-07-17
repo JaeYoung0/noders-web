@@ -1,6 +1,6 @@
 const CONSTANTS = {
   title: 'NODERS',
-  description: 'CONNECT IDEAS TO REALITY. 노더스입니다.',
+  description: '브랜딩 | 패키지 | 로고 | 웹디자인 | 웹앱개발',
   siteUrl: 'https://www.noders-studio.com/',
   imageUrl: 'https://www.noders-studio.com/images/meta-cover.png',
   keywords: '브랜딩, 패키지, 로고, 웹디자인, 웹앱개발',
