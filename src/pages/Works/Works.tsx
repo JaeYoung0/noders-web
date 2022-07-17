@@ -156,6 +156,18 @@ const WorksByCategory = {
         img: 'https://images.unsplash.com/photo-1519710164239-da123dc03ef4',
         title: 'Coffee table',
       },
+      {
+        img: 'https://images.unsplash.com/photo-1588436706487-9d55d73a39e3',
+        title: 'Blinds',
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
+        title: 'Chairs',
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1530731141654-5993c3016c77',
+        title: 'Laptop',
+      },
     ],
   },
 }
@@ -167,7 +179,7 @@ function Works() {
     <BasicLayout>
       <S.FlexContainer>
         <S.CategoriesWrapper>
-          {Object.keys(WorksByCategory).map((item, idx) => {
+          {/* {Object.keys(WorksByCategory).map((item, idx) => {
             return (
               <p
                 className="category-label"
@@ -178,7 +190,7 @@ function Works() {
                 {item}
               </p>
             )
-          })}
+          })} */}
           <p className="category-description">
             We believe in a pluralistic vision of design that is inclusive of all backgrounds, all
             possible ways of being, imaginable styles of living, and all opportunities for

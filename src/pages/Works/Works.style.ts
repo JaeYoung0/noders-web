@@ -56,14 +56,11 @@ export const ImagesWrapper = styled.ul`
     background-color: gray;
     object-fit: contain;
     aspect-ratio: 1/1;
-    /* max-width: 40rem; */
   }
 
   img {
     width: 100%;
     height: 100%;
-
-    /* aspect-ratio: 1/1; */
   }
 
   ${SCREEN_BREAKPOINT('XSmall')} {
@@ -81,7 +78,5 @@ export const ImagesWrapper = styled.ul`
   ${SCREEN_BREAKPOINT('XLarge')} {
     width: 85%;
     grid-template-columns: repeat(3, 1fr);
-
-    /* grid-row: auto; */
   }
 `

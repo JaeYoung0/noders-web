@@ -69,6 +69,7 @@ export const Navigation = styled.nav`
       margin-left: 2.4rem;
     }
   }
+
   ${SCREEN_BREAKPOINT('XLarge')} {
     a {
       font-size: 2.4rem;
